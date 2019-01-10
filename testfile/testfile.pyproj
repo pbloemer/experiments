@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>6ee62f0b-e5e2-4966-b2c5-ea3b7eeca9ea</ProjectGuid>
+    <ProjectGuid>95cd1f07-5369-4fa7-be93-6ca32877f19a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>bettertestpy.py</StartupFile>
+    <StartupFile>testfile.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>bettertestpy</Name>
-    <RootNamespace>bettertestpy</RootNamespace>
+    <Name>testfile</Name>
+    <RootNamespace>testfile</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="bettertestpy.py" />
+    <Compile Include="testfile.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
